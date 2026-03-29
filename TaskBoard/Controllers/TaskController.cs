@@ -26,19 +26,45 @@ namespace TaskBoard.Controllers
         [HttpPost]
         public IActionResult Add(TaskDTO task)
         {
-            if (ModelState.IsValid)
-            {
-                _taskService.AddTask(task);
-                return RedirectToAction("Index");
-            }
+            _taskService.AddTask(task);
             return View();
         }
 
-        public IActionResult Delete()
+        public IActionResult Delete(int? id)
         {
+            TaskDTO taskDto = _taskService.GetTaskById(id ?? 0);
+
+            if (id == null || taskDto == null)
+            {
+                return NotFound();
+            }
+
+            return View(taskDto);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            _taskService.DeleteTask(id);
+            return RedirectToAction("Index");
 
         }
 
+        public IActionResult Update(int id)
+        {
+            TaskDTO taskDto = _taskService.GetTaskById(id);
+            if (taskDto == null)
+            {
+                return NotFound();
+            }
+            return View(taskDto);
+        }
 
+        [HttpPost]
+        public IActionResult Update(TaskDTO task)
+        {
+            _taskService.UpdateTask(task);
+            return RedirectToAction("Index");
+        }
     }
 }

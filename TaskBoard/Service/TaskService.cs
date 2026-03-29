@@ -28,7 +28,7 @@ namespace TaskBoard.Service
             {
                 throw new ArgumentException("Title should not start with a number");
             }
-            
+
             TaskItem taskItem = new TaskItem
             {
                 Id = task.Id,
@@ -37,11 +37,19 @@ namespace TaskBoard.Service
                 CurrentStatus = task.CurrentStatus
             };
             _taskRepository.AddTask(taskItem);
-            
+
         }
 
         public void DeleteTask(int id)
         {
+            //Checking if the task exists before deleting
+            TaskItem existingTask = _taskRepository.GetTaskById(id);
+
+            if (existingTask == null)
+            {
+                throw new ArgumentException($"Task with Id {id} does not exist");
+            }
+
             _taskRepository.DeleteTask(id);
         }
 
@@ -58,6 +66,14 @@ namespace TaskBoard.Service
 
         public void UpdateTask(TaskDTO task)
         {
+            //Checking if the task exists before updating
+            TaskItem existingTask = _taskRepository.GetTaskById(task.Id);
+
+            if (existingTask == null)
+            {
+                throw new ArgumentException($"Task with Id {task.Id} does not exist");
+            }
+
             if (task == null)
             {
                 throw new ArgumentNullException(nameof(task));
@@ -68,7 +84,7 @@ namespace TaskBoard.Service
             {
                 throw new ArgumentException("Title should not start with a number");
             }
-            
+
             TaskItem taskItem = new TaskItem
             {
                 Id = task.Id,
@@ -79,6 +95,22 @@ namespace TaskBoard.Service
             _taskRepository.UpdateTask(taskItem);
         }
 
+        public TaskDTO GetTaskById(int id)
+        {
+            TaskItem taskItem = _taskRepository.GetTaskById(id);
+            if (taskItem == null)
+            {
+                throw new ArgumentException($"Task with Id {id} does not exist");
+            }
+            return new TaskDTO
+            {
+                Id = taskItem.Id,
+                Title = taskItem.Title,
+                Description = taskItem.Description,
+                CurrentStatus = taskItem.CurrentStatus
+            };
 
+        }
     }
+
 }

@@ -36,5 +36,10 @@ namespace TaskBoard.Repositories
             _db.Update(task);
             _db.SaveChanges();
         }
+
+        public TaskItem GetTaskById(int id)
+        {
+            return _db.TaskItems.FirstOrDefault(t => t.Id == id);
+        }
     }
 }
