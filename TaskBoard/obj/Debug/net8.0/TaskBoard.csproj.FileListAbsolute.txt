@@ -138,3 +138,4 @@ C:\Users\Coditas-Admin\source\C#_Assignments\TaskBoard\TaskBoard\obj\Debug\net8.
 C:\Users\Coditas-Admin\source\C#_Assignments\TaskBoard\TaskBoard\obj\Debug\net8.0\TaskBoard.pdb
 C:\Users\Coditas-Admin\source\C#_Assignments\TaskBoard\TaskBoard\obj\Debug\net8.0\TaskBoard.genruntimeconfig.cache
 C:\Users\Coditas-Admin\source\C#_Assignments\TaskBoard\TaskBoard\obj\Debug\net8.0\ref\TaskBoard.dll
+C:\Users\Coditas-Admin\source\C#_Assignments\TaskBoard\TaskBoard\obj\Debug\net8.0\TaskBoard.sourcelink.json

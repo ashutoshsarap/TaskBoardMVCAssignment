@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using TaskBoard.Data;
+using TaskBoard.Repositories;
+using TaskBoard.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,9 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<ITaskService, TaskService>();
 
 var app = builder.Build();
 
@@ -28,6 +33,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Task}/{action=Index}/{id?}");
 
 app.Run();

@@ -1,0 +1,35 @@
+﻿@model List<TaskBoard.Models.TaskDTO>
+@{
+    ViewData["Title"] = "Tasks";
+}
+
+<h1>Task List</h1>
+
+@if (Model == null || !Model.Any())
+{
+    <p>No tasks available.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var task in Model)
+            {
+                <tr>
+                    <td>@task.Title</td>
+                    <td>@task.Description</td>
+                    <td>@task.CurrentStatus</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+

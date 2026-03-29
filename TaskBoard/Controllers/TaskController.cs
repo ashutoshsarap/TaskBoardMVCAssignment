@@ -15,6 +15,7 @@ namespace TaskBoard.Controllers
         public IActionResult Index()
         {
             List<TaskDTO> taskDTOs = _taskService.GetAllTasks();
+            int cnt=taskDTOs.Count;
             return View(taskDTOs);
         }
 
@@ -26,21 +27,14 @@ namespace TaskBoard.Controllers
         [HttpPost]
         public IActionResult Add(TaskDTO task)
         {
-            _taskService.AddTask(task);
-            return View();
-        }
-
-        public IActionResult Delete(int? id)
-        {
-            TaskDTO taskDto = _taskService.GetTaskById(id ?? 0);
-
-            if (id == null || taskDto == null)
+            if(ModelState.IsValid)
             {
-                return NotFound();
+                _taskService.AddTask(task);
+                return RedirectToAction("Index");
             }
-
-            return View(taskDto);
+            return RedirectToAction("Index");
         }
+
 
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
@@ -63,7 +57,11 @@ namespace TaskBoard.Controllers
         [HttpPost]
         public IActionResult Update(TaskDTO task)
         {
-            _taskService.UpdateTask(task);
+            if (ModelState.IsValid)
+            {
+                _taskService.UpdateTask(task);
+                return RedirectToAction("Index");
+            }
             return RedirectToAction("Index");
         }
     }
