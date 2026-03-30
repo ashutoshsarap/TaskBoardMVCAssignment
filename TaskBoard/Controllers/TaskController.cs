@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TaskBoard.Service;
 using TaskBoard.Models;
+using Microsoft.AspNetCore.Authorization;
 namespace TaskBoard.Controllers
 {
+    [Authorize]
     public class TaskController : Controller
     {
 

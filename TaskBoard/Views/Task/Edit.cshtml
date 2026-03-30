@@ -18,7 +18,7 @@
         </div>
         <div class="mb-3 row p-1">
             <label asp-for="CurrentStatus" class="p-0"></label>
-            <input asp-for="CurrentStatus" class="form-control" />
+            <select asp-for="CurrentStatus" class="form-control" asp-items="Html.GetEnumSelectList<TaskBoard.Models.TaskStatus>()"></select>
         </div>
         <div class="row">
             <div class="col-6 col-md-3">
