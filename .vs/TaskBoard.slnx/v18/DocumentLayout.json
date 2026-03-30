@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +21,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\views\\task\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\views\\task\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|c:\\users\\coditas-admin\\source\\c#_assignments\\taskboard\\taskboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6C0ACF3C-8B64-A6E3-CE1E-82EC54AFE53D}|TaskBoard\\TaskBoard.csproj|solutionrelative:taskboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -74,76 +82,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Views\\Task\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TaskBoard\\Views\\Task\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Views\\Task\\Edit.cshtml",
+              "RelativeToolTip": "TaskBoard\\Views\\Task\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T07:40:48.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Views\\Task\\Index.cshtml",
               "RelativeDocumentMoniker": "TaskBoard\\Views\\Task\\Index.cshtml",
               "ToolTip": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Views\\Task\\Index.cshtml",
               "RelativeToolTip": "TaskBoard\\Views\\Task\\Index.cshtml",
-              "ViewState": "AgIAABcAAACAMzMzM/MmwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAACYd3d3d3ctwCgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-29T22:50:16.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "TaskBoard\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Controllers\\TaskController.cs",
               "RelativeToolTip": "TaskBoard\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAmZmZmZkTwCcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T21:24:14.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TaskService.cs",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Service\\TaskService.cs",
               "RelativeDocumentMoniker": "TaskBoard\\Service\\TaskService.cs",
               "ToolTip": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Service\\TaskService.cs",
               "RelativeToolTip": "TaskBoard\\Service\\TaskService.cs",
-              "ViewState": "AgIAABIAAADAqaqqqqouwHIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAADpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T20:50:49.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Repositories\\TaskRepository.cs",
               "RelativeDocumentMoniker": "TaskBoard\\Repositories\\TaskRepository.cs",
               "ToolTip": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Repositories\\TaskRepository.cs",
               "RelativeToolTip": "TaskBoard\\Repositories\\TaskRepository.cs",
-              "ViewState": "AgIAAAwAAAAAvbu7uzsWwCkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAADeAAAAAMA/wBkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T20:20:25.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Program.cs",
               "RelativeDocumentMoniker": "TaskBoard\\Program.cs",
               "ToolTip": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Program.cs",
               "RelativeToolTip": "TaskBoard\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T20:06:44.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Models\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "TaskBoard\\Models\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Models\\TaskStatus.cs",
+              "RelativeToolTip": "TaskBoard\\Models\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T19:54:07.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TaskBoard\\Views\\Home\\Index.cshtml",
@@ -151,12 +189,11 @@
               "RelativeToolTip": "TaskBoard\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-29T22:11:57.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T22:11:57.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Repositories\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "TaskBoard\\Repositories\\ITaskRepository.cs",
@@ -164,12 +201,24 @@
               "RelativeToolTip": "TaskBoard\\Repositories\\ITaskRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:13:27.03Z",
+              "WhenOpened": "2026-03-29T20:13:27.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Views\\Task\\Add.cshtml",
+              "RelativeDocumentMoniker": "TaskBoard\\Views\\Task\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Views\\Task\\Add.cshtml",
+              "RelativeToolTip": "TaskBoard\\Views\\Task\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T07:12:03.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\appsettings.json",
               "RelativeDocumentMoniker": "TaskBoard\\appsettings.json",
@@ -177,12 +226,11 @@
               "RelativeToolTip": "TaskBoard\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-29T20:01:51.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T20:01:51.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Models\\TaskItem.cs",
               "RelativeDocumentMoniker": "TaskBoard\\Models\\TaskItem.cs",
@@ -190,12 +238,11 @@
               "RelativeToolTip": "TaskBoard\\Models\\TaskItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:31:54.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T19:31:54.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "TaskBoard\\Data\\ApplicationDbContext.cs",
@@ -203,12 +250,11 @@
               "RelativeToolTip": "TaskBoard\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:55:47.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T19:55:47.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ITaskService.cs",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Service\\ITaskService.cs",
               "RelativeDocumentMoniker": "TaskBoard\\Service\\ITaskService.cs",
@@ -220,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "TaskDTO.cs",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Models\\TaskDTO.cs",
               "RelativeDocumentMoniker": "TaskBoard\\Models\\TaskDTO.cs",
@@ -232,19 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TaskStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Models\\TaskStatus.cs",
-              "RelativeDocumentMoniker": "TaskBoard\\Models\\TaskStatus.cs",
-              "ToolTip": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Models\\TaskStatus.cs",
-              "RelativeToolTip": "TaskBoard\\Models\\TaskStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:54:07.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TaskBoard\\Views\\Shared\\_Layout.cshtml",
@@ -256,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "TaskBoard\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -268,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "TaskBoard.csproj",
               "DocumentMoniker": "C:\\Users\\Coditas-Admin\\source\\C#_Assignments\\TaskBoard\\TaskBoard\\TaskBoard.csproj",
               "RelativeDocumentMoniker": "TaskBoard\\TaskBoard.csproj",

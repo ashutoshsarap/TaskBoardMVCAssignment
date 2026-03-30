@@ -22,7 +22,8 @@ namespace TaskBoard.Repositories
 
         public void DeleteTask(int id)
         {
-            _db.Remove(id);
+            TaskItem taskToDelete = GetTaskById(id);
+            _db.Remove(taskToDelete);
             _db.SaveChanges();
         }
 

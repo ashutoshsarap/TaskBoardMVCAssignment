@@ -37,14 +37,14 @@ namespace TaskBoard.Controllers
 
 
         [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteConfirmed(int id)
+        public IActionResult Delete(int id)
         {
             _taskService.DeleteTask(id);
             return RedirectToAction("Index");
 
         }
 
-        public IActionResult Update(int id)
+        public IActionResult Edit(int id)
         {
             TaskDTO taskDto = _taskService.GetTaskById(id);
             if (taskDto == null)
@@ -55,7 +55,7 @@ namespace TaskBoard.Controllers
         }
 
         [HttpPost]
-        public IActionResult Update(TaskDTO task)
+        public IActionResult Edit(TaskDTO task)
         {
             if (ModelState.IsValid)
             {

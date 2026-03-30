@@ -85,14 +85,14 @@ namespace TaskBoard.Service
                 throw new ArgumentException("Title should not start with a number");
             }
 
-            TaskItem taskItem = new TaskItem
-            {
-                Id = task.Id,
-                Title = task.Title,
-                Description = task.Description,
-                CurrentStatus = task.CurrentStatus
-            };
-            _taskRepository.UpdateTask(taskItem);
+            //Mapping the updated values to the existing task
+            existingTask.Title = task.Title;
+            existingTask.Description = task.Description;
+            existingTask.CurrentStatus = task.CurrentStatus;
+
+            //NOTE : Do not create a new TaskItem object here, as it will be treated as a new entity by the repository and may lead to conflict like duplicate entries.
+            //Do not map the ID from the DTO to existingTask, as it will cause issues with the repository's tracking of entities. Instead, update the existing TaskItem directly and then call the UpdateTask method to save the changes.
+            _taskRepository.UpdateTask(existingTask);
         }
 
         public TaskDTO GetTaskById(int id)
