@@ -4,7 +4,7 @@ using TaskBoard.Models;
 using Microsoft.AspNetCore.Authorization;
 namespace TaskBoard.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class TaskController : Controller
     {
 

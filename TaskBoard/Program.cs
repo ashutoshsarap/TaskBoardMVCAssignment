@@ -50,8 +50,16 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+//Login->Access to homepage
 app.UseAuthentication();
 app.UseAuthorization();
+
+//Login page opens up but even if we input correct credentials we wont get logged in, we are redirected to login page
+//app.UseAuthorization();
+//app.UseAuthentication();
+
+//If we just use authorization without authentication and [Authorization] attribute on controller, we can access the homepage without login, but if we add [Authorization] attribute on controller then we will get redirected to login page and after entering credentials we can access the homepage
+//app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
